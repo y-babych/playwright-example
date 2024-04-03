@@ -1,0 +1,16 @@
+{
+  "name": "pw-course",
+  "version": "1.0.0",
+  "description": "Playwright training project",
+  "main": "index.js",
+  "scripts": {
+    "test-chrome": "playwright test --config=playwright.config.ts --project=Chromium",
+    "e2e": "playwright test --config=e2e.config.ts --project=Firefox"
+  },
+  "author": "YB",
+  "license": "ISC",
+  "dependencies": {
+    "@playwright/test": "^1.42.1",
+    "prettier": "^3.2.5"
+  }
+}
